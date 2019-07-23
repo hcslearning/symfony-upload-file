@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello SimpleUploadController!{% endblock %}
+
+{% block body %}
+
+    <p>{{ descripcion }}</p>
+    <img src="/images/{{ imagen }}" alt="Upload image" />
+    
+    <br /><br /><br /><br />
+    
+    {{ form(form) }}
+
+{% endblock %}
